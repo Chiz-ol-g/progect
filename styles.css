@@ -1,26 +1,7 @@
-tr, td{
-    border: 1px solid black;
+table, td{
+    border:1px solid black
 }
 td{
+    border-collapse: collapse;
     padding:5px
-}
-li{
-    border:1px solid black;
-    display: inline-block;
-    padding:5px
-}
-.active{
-    background-color: coral;
-    color: white
-}
-#container{
-    border:2px solid black;
-    height:300px;
-    width: 300px;
-}
-#block{
-    width:25px;
-    background-color:darkorange;
-    height:25px;
-    position: relative
 }
