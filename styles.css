@@ -1,7 +1,27 @@
-table, td{
-    border:1px solid black
+div {
+  width: 100px;
+  height: 50px;
+  position:relative;
+  left:0
+  
 }
-td{
-    border-collapse: collapse;
-    padding:5px
+.move0 {
+  background-color: tomato;
+  transition: left 5s linear;
+}
+.move1 {
+  background-color: lightgreen;
+  transition: left 5s ease;
+}
+.move2 {
+  background-color: lightblue;
+  transition: left 5s ease-in;
+}
+.move3 {
+  background-color:darkgoldenrod;
+  transition: left 5s ease-out;
+}
+.move4 {
+  background-color: pink;
+  transition: left 5s ease-in-out
 }

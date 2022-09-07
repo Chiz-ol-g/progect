@@ -1,22 +1,16 @@
-const rect = {
-  x1:2,
-  y1:-3,
-  x2:5,
-  y2:0
-};
-const rect1 = {
-  x1:2,
-  y1:-3,
-  x2:5,
-  y2:4
-};
-function a(obj){
-  
-  obj.x3=obj.x2;
-  obj.x4=obj.x3;
-  obj.y3=obj.y2;
-  obj.y4=obj.y1
-  
-}
-a(rect1);
-console.log(rect1)
+let animated=document.querySelector('.animated');
+let reset = document.querySelector('.reset')
+animated.addEventListener('click',()=>{
+  document.querySelector('.move0').style.left='450px';
+  document.querySelector('.move1').style.left='450px';
+  document.querySelector('.move2').style.left='450px';
+  document.querySelector('.move3').style.left='450px';
+  document.querySelector('.move4').style.left='450px';
+})
+reset.addEventListener('click',()=>{
+  document.querySelector('.move0').style.left='0px';
+  document.querySelector('.move1').style.left='0px';
+  document.querySelector('.move2').style.left='0px';
+  document.querySelector('.move3').style.left='0px';
+  document.querySelector('.move4').style.left='0px';
+})
